@@ -1,0 +1,10 @@
+{
+    "watchFolder": "src/theme-config/theme",
+    "outputFolder": "src/theme-config/theme",
+    "sourceMap": false,
+    "runOnce": false,
+    "enableJs": true,
+    "allowedExtensions": [
+        ".less"
+    ]
+}

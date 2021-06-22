@@ -1,0 +1,29 @@
+.primary__menu {
+  &.ant-menu{
+    color: #fff;
+    background: #000;
+    &.ant-menu-horizontal{
+      border: none;
+    .ant-menu-item{
+     &.ant-menu-item-active{
+       &:hover{
+         color:#CED05E;
+       }
+       &::after{
+        border-bottom: 2px solid #CED05E;
+
+       }
+     }
+     &.ant-menu-item-selected{
+       color: #CED05E;
+       &::after{
+        border-bottom: 2px solid #CED05E;
+       }
+     }
+
+  }
+}
+} 
+}
+// 
+// border-bottom: 2px solid #CED05E;
