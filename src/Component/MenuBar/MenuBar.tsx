@@ -9,7 +9,8 @@ function MenuBar() {
     history.push("/" + value.keyPath.reverse().join("/"));
   };
   return (
-    <Menu
+    <div>
+      <Menu
       theme="light"
       mode="horizontal"
       className="primary__menu"
@@ -25,6 +26,8 @@ function MenuBar() {
         Community
       </Menu.Item>
     </Menu>
+     
+    </div>
   );
 }
 
